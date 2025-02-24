@@ -19,7 +19,7 @@ const taskSchema: Schema<ITask> = new Schema(
 
 // Define and export the model
 const TaskModel: Model<ITask> = mongoose.model<ITask>(
-  " assignment_sourav",
+  "assignment_sourav",
   taskSchema
 );
 export default TaskModel;

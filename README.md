@@ -99,7 +99,7 @@ The application will be available at **http://localhost:5174/**.
 
 ```
 note-app/
-│── backend/
+│── server/
 │   ├── models/
 │   ├── routes/
 │   ├── controllers/
@@ -108,7 +108,7 @@ note-app/
 │   ├── mqtt.ts
 │   ├── redis.ts
 │
-│── frontend/
+│── client/
 │   ├── src/
 │   │   ├── api/
 │   │   ├── components/
