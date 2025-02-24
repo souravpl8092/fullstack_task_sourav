@@ -2,12 +2,12 @@
 
 ## 📌 Overview
 
-A simple and efficient Note App built with **MongoDB, Express.js, React.js + Vite, TypeScript and Node.js (MERN stack)**. This application allows users to create, read notes easily.
+A simple and efficient Note App built with React.js + Vite, TypeScript, Node.js, Express.js, MongoDB and Redis (MERN stack). This application allows users to create, read task easily.
 
 ## 🚀 Features
 
-- 📝 **Create Notes** – Add new notes with a title and content.
-- 📖 **Read Notes** – View all saved notes.
+- 📝 **Create Notes** – Add new task.
+- 📖 **Read Notes** – View all saved task.
 - 🌐 **Responsive UI** – Works on all screen sizes.
 
 ## 🛠️ Tech Stack
@@ -24,6 +24,11 @@ A simple and efficient Note App built with **MongoDB, Express.js, React.js + Vit
 - Express
 - MongoDB + Mongoose
 - Redis
+
+## 🚀 Deployment
+
+- **Frontend:** [Note App](https://notes-apps-kappa.vercel.app/)
+- **Backend:** [Note App Server](https://note-apps-server.vercel.app/)
 
 ## Installation
 
@@ -73,20 +78,20 @@ PORT=8080
 #### Start the Backend:
 
 ```sh
-cd backend
+cd server
 npm run dev
 ```
 
 #### Start the Frontend:
 
 ```sh
-cd frontend
+cd client
 npm run dev
 ```
 
 ---
 
-The application will be available at **http://localhost:5174/**.
+The application will be available at **http://localhost:5174/**
 
 ## 🌍 API Endpoints
 
